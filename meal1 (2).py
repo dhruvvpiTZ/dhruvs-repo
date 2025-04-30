@@ -37,7 +37,7 @@ def main():
             hours = int(hours) + 12
             minutes = int(minutes)
 
-            timein24hrf = hours + ":" + minutes
+            timein24hrf = str(hours) + ":" + str(minutes)
 
 #here timein24hrf lies in this range - [13:00, 23:59]
 #in this time range lunch is possible at exactly 13:00 and dinner between 18:00 and 19:00
